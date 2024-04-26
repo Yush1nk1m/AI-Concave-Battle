@@ -1,0 +1,29 @@
+{
+  "name": "ai-gomoku-battle",
+  "version": "0.0.1",
+  "description": "AI와 오목 두기",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yush1nk1m/AI-Concave-Battle.git"
+  },
+  "author": "Yushin Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yush1nk1m/AI-Concave-Battle/issues"
+  },
+  "homepage": "https://github.com/Yush1nk1m/AI-Concave-Battle#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.5.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "nunjucks": "^3.2.4",
+    "openai": "^4.33.1"
+  }
+}
